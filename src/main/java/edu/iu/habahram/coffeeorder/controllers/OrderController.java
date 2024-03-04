@@ -5,12 +5,13 @@ import edu.iu.habahram.coffeeorder.model.Receipt;
 import edu.iu.habahram.coffeeorder.repository.OrderRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.HashMap;
+import java.util.Map;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/orders")
 public class OrderController {
     private OrderRepository orderRepository;

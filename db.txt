@@ -1,0 +1,2 @@
+Receipt[id=87633, description=House Blend, Soy, cost=1.92]
+Receipt[id=41529, description=Dark Roast, Mocha, cost=2.29]
